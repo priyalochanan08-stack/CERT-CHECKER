@@ -1,0 +1,14 @@
+{
+  "mock": {
+    "source_id": "SRC-MOCK",
+    "display": "Mock issuer (demo data)",
+    "verify_url": "http://localhost:8000/verify/{id}",
+    "labels": {
+      "name": ["Name", "Recipient", "Recipient Name", "Awarded to"],
+      "course": ["Course", "Course Title", "Program"],
+      "date": ["Date", "Issued", "Completion Date", "Issue Date"],
+      "id": ["Certificate ID", "Credential ID"]
+    },
+    "not_found_phrases": ["no record found", "record not found", "certificate not found"]
+  }
+}

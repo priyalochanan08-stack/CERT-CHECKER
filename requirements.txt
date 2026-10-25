@@ -1,0 +1,3 @@
+playwright>=1.40
+pytest>=7
+rapidfuzz>=3   # optional: used for name/course matching if installed, otherwise a built-in fallback is used
